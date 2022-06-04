@@ -1,0 +1,500 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #9eb0c9;
+}
+
+.header1 {
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 35px;
+}
+
+.header1 div {
+  color: white;
+}
+
+.header2 {
+  background-color: white;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 8px;
+  -webkit-box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.116);
+          box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.116);
+  margin-bottom: 10px;
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+}
+
+.header2 button {
+  background-color: white;
+  border: none;
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.header2 .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header2 #search {
+  border-radius: 10px;
+  padding: 10px;
+  width: 600px;
+  background-color: rgba(128, 128, 128, 0.144);
+  border: none;
+  margin-left: 100px;
+}
+
+.header2 #mic {
+  width: 35px;
+  margin: 0;
+}
+
+.header2 .options {
+  padding-left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 250px;
+}
+
+.nav {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dropdown {
+  list-style-type: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #131111;
+  margin-bottom: 0;
+}
+
+.dropdown li {
+  display: inline;
+  position: relative;
+  padding: 10px;
+  text-transform: uppercase;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.dropdown li:hover ul {
+  display: block;
+  -webkit-transition: .5s;
+  transition: .5s;
+  line-height: 40px;
+  margin-left: 0;
+  padding: 20px;
+}
+
+.dropdown li:hover ul li {
+  -webkit-transition: .5s;
+  transition: .5s;
+  padding: 10px;
+  line-height: 10px;
+}
+
+.dropdown li:hover ul li:hover {
+  background-color: #d5c3c3;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border-radius: 20px;
+  color: black;
+}
+
+.dropdown li ul {
+  display: none;
+  position: absolute;
+  background-color: #131111;
+  color: white;
+}
+
+.dropdown li ul li {
+  padding: 10px;
+  text-transform: uppercase;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.dropdown li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.dropdown li a:hover {
+  background-color: white;
+  border-radius: 15px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: black;
+}
+
+.homepage {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../images/young-man-shirt-choosing-clothes-mall-clothing-store (1).jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/young-man-shirt-choosing-clothes-mall-clothing-store (1).jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 75vh;
+}
+
+.homepage .textmorph {
+  color: white;
+  font-size: 6vw;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 60px;
+}
+
+.homepage .word:nth-child(1) {
+  -webkit-animation-delay: -10s;
+          animation-delay: -10s;
+}
+
+.homepage .word:nth-child(2) {
+  -webkit-animation-delay: -7s;
+          animation-delay: -7s;
+}
+
+.homepage .word:nth-child(3) {
+  -webkit-animation-delay: -4s;
+          animation-delay: -4s;
+}
+
+.homepage .word {
+  margin-top: 17vw;
+  font-size: 6vw;
+  font-weight: 600;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  position: absolute;
+  -webkit-animation: morph 10s infinite ease-in-out;
+          animation: morph 10s infinite ease-in-out;
+}
+
+.homepage .frontimage {
+  background-image: url(../images/defocussed-man-choosing-shirt-from-rail-shop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 400px;
+  margin-top: 23vw;
+  margin-left: 60vw;
+}
+
+.mascfem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 700px;
+  height: 300px;
+}
+
+.mascfem .circleImage {
+  background-image: url(../images/bearded-young-man-counter-looking-clothes-hanging-rail.jpg);
+  background-size: cover;
+  background-position: right;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #cccdeb;
+  font-family: 'Lobster', cursive;
+}
+
+.mascfem .circleImage h1 {
+  opacity: 0;
+}
+
+.mascfem .circleImage h1:hover {
+  opacity: 1;
+  -webkit-animation: blured .4s ease-out;
+          animation: blured .4s ease-out;
+  cursor: pointer;
+}
+
+.mascfem .circleImage:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.mascfem .circleImage2 {
+  background-image: url(../images/cheerful-young-woman-showing-peace-sign-with-smile-studio-shot-attractive-caucasian-lady-wearing-denim-clothes.jpg);
+  background-size: cover;
+  background-position: right;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffe1e1;
+  font-family: 'Lobster', cursive;
+}
+
+.mascfem .circleImage2 h1 {
+  opacity: 0;
+}
+
+.mascfem .circleImage2 h1:hover {
+  opacity: 1;
+  -webkit-animation: blured .4s ease-out;
+          animation: blured .4s ease-out;
+  cursor: pointer;
+}
+
+Footer {
+  margin-top: 40px;
+  background-color: #0c0b0b;
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Lobster', cursive;
+  color: white;
+  font-size: 30px;
+}
+
+@-webkit-keyframes morph {
+  0%, 5%, 100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+  20%, 80% {
+    -webkit-filter: blur(35px);
+            filter: blur(35px);
+    opacity: 0;
+  }
+}
+
+@keyframes morph {
+  0%, 5%, 100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+  20%, 80% {
+    -webkit-filter: blur(35px);
+            filter: blur(35px);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes blured {
+  from {
+    -webkit-filter: blur(50px);
+            filter: blur(50px);
+  }
+  to {
+    -webkit-filter: blur(0);
+            filter: blur(0);
+  }
+}
+
+@keyframes blured {
+  from {
+    -webkit-filter: blur(50px);
+            filter: blur(50px);
+  }
+  to {
+    -webkit-filter: blur(0);
+            filter: blur(0);
+  }
+}
+
+.abrirModal {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.fecharModal {
+  position: fixed;
+  top: -0;
+  width: 20px;
+  height: 20px;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.fecharModal > button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+
+.fecharModal > button:hover {
+  background-color: white;
+  color: #37d1f0;
+  width: 45px;
+  height: 45px;
+}
+
+.containerModal {
+  opacity: 0;
+  -webkit-transition: opacity 200ms ease-out;
+  transition: opacity 200ms ease-out;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  pointer-events: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.containerModal2 {
+  background-color: #d6d5d5;
+  width: 400px;
+  height: 300px;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.containerModal2 > a > img {
+  width: 150px;
+  height: 150px;
+  padding: 10px 20px 20px 10px;
+}
+
+.visivel {
+  opacity: 1;
+  pointer-events: initial;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=main.css.map */

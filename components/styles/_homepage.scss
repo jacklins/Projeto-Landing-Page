@@ -1,0 +1,131 @@
+.homepage{
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../images/young-man-shirt-choosing-clothes-mall-clothing-store\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 100%;
+    height: 75vh;
+
+    .textmorph{
+        color: white;
+        font-size: 6vw;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        margin-right: 60px;
+    }
+
+    .word:nth-child(1){
+        animation-delay: -10s;
+    }
+    
+    .word:nth-child(2){
+        animation-delay: -7s;
+    }
+    
+    .word:nth-child(3){
+        animation-delay: -4s;
+    }
+    
+    .word{
+        margin-top: 17vw;
+        font-size: 6vw;
+        font-weight: 600;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        position: absolute;
+        animation: morph 10s infinite ease-in-out;
+    }
+
+    .frontimage{
+        background-image: url(../images/defocussed-man-choosing-shirt-from-rail-shop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        width: 500px;
+        height: 400px;
+    
+        margin-top: 23vw;
+        margin-left: 60vw;
+    }
+}
+
+.mascfem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    box-sizing: border-box;
+
+
+    width: 700px;
+    height: 300px;
+
+    
+
+    .circleImage{
+        background-image: url(../images/bearded-young-man-counter-looking-clothes-hanging-rail.jpg);
+        background-size: cover;
+        background-position: right;
+        border-radius: 50%;
+    
+        width: 200px;
+        height: 200px;
+        margin-left: 40px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        color: rgb(204, 205, 235);
+        font-family: 'Lobster', cursive;
+
+        h1{
+            opacity: 0;
+
+            &:hover{
+                opacity: 1;
+                animation: blured .4s ease-out;
+                cursor: pointer;
+            }
+         }
+
+         &:hover{
+            background-color: rgba(0,0,0,.7);
+        }
+        
+    }
+    .circleImage2{
+        background-image: url(../images/cheerful-young-woman-showing-peace-sign-with-smile-studio-shot-attractive-caucasian-lady-wearing-denim-clothes.jpg);
+        background-size: cover;
+        background-position: right;
+        border-radius: 50%;
+    
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+    
+         display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        color: rgb(255, 225, 225);
+        font-family: 'Lobster', cursive;
+
+        h1{
+            opacity: 0;
+
+            &:hover{
+                opacity: 1;
+                animation: blured .4s ease-out;
+                cursor: pointer;
+            }
+        }
+    
+       }
+
+}
